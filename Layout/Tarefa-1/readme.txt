@@ -1,0 +1,6 @@
+- Crie um projeto com Bootstrap e um arquivo de CSS próprio do do projeto
+- Crie uma estrutura Grid
+- Limite a estrutura para 4 colunas por linha 
+- Crie 8 colunas no total
+- As colunas ímpares e pares devem ter cor diferente
+- Defina bem as divisões das colunas, pode ser sem borda
