@@ -1,0 +1,23 @@
+.container{
+  margin-top: 20px;
+  background-color:#fa26a0;
+  padding: 20px;
+}
+
+.row{
+  height: 250px;
+  border: 1px solid #a45879;
+  margin: 15px;
+  border: 5px solid #f8d210;
+}
+
+.col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin: 15px;
+  background-color:#2ff3e0;
+  border: 5 px solid #f8d210;
+}

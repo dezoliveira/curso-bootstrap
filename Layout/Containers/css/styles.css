@@ -1,0 +1,24 @@
+.container{
+  margin-bottom: 30px;
+  background-color: pink;
+}
+
+.container-fluid{
+  background-color: skyblue;
+  margin-bottom: 30px;
+}
+
+.container-sm{
+  background-color: palegreen;
+  margin-bottom: 30px;
+}
+
+.container-md{
+  background-color: yellow;
+  margin-bottom: 30px;
+}
+
+.container-lg{
+  background-color: tomato;
+  margin-bottom: 30px;
+}

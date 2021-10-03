@@ -1,0 +1,25 @@
+.container{
+  margin-top: 20px;
+  background-color:#fa26a0;
+  padding: 10px;
+}
+
+.row{
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #a45879;
+  margin: 15px;
+  border: 5px solid #f8d210;
+}
+
+.col{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin: 0;
+  background-color:#2ff3e0;
+  border: 5px solid #f8d210;
+}

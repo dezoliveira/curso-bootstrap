@@ -1,0 +1,46 @@
+/* < 576px - btn-primary (padrão) */
+
+/* sm >= 576px */
+@media (min-width: 576px){
+  .btn-primary{
+    background-color: tomato;
+    border: 1px tomato;
+  }
+}
+
+/* md >= 768px */
+@media (min-width: 768px){
+  .btn-primary{
+    background-color: violet;
+    border: 1px violet;
+  }
+}
+
+/* lg >= 992px */
+@media (min-width: 992px){
+  .btn-primary{
+    background-color: turquoise;
+    border: 1px turquoise;
+  }
+}
+
+/*xl >= 1200px */
+@media (min-width: 1200px){
+  .btn-primary{
+    background-color: springgreen;
+    border: 1px springgreen;
+  }
+}
+
+/*xxl >= 1400px */
+@media (min-width: 1400px){
+  .btn-primary{
+    background-color: teal;
+    border: 1px teal;
+  }
+}
+
+.container{
+  margin-bottom: 30px;
+  background-color: pink;
+}
