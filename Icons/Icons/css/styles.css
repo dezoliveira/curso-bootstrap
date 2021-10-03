@@ -1,0 +1,18 @@
+
+.container .avatar{
+  color: rgb(50, 205, 146);
+  font-size: 40px;
+}
+
+.container .bell{
+  color: gold;
+  font-size: 20px;
+}
+
+.container i{
+  font-size: 20px;
+}
+
+.container button{
+  font-size: 18px;
+}
