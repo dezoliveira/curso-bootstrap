@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootsrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- JS -->
+    <script src="./js/script.js" defer></script>
+
+    <title>Input File</title>
+
+  </head>
+
+  <body>
+
+    <!-- ----------------------------- Validação Bootstrap ------------------------------ -->
+    <div class="container">
+      <div class="row justify-content-center m-4">
+        <div class="col-6">
+          <h2>Faça o login para continuar</h2>
+
+          <!-- Form -->
+          <form action="" class="row needs-validation" novalidate>
+            
+            <!-- Email -->
+            <div class="col-12 mb-4">
+              <label for="email" class="form-label">E-Mail:</label>
+              <input type="email" class="form-control" placeholder="Digite o seu e-mail" required>
+              <div class="valid-feedback">
+                Email válido
+              </div>
+              <div class="invalid-feedback">
+                Email inválido!
+              </div>
+            </div>
+
+            <!-- Senha -->
+            <div class="col-12 mb-4">
+              <label for="password" class="form-label">Senha:</label>
+              <input type="password" class="form-control" placeholder="Digite a sua senha" required>
+              <div class="valid-feedback">
+                Senha válida
+              </div>
+              <div class="invalid-feedback">
+                Senha inválida!
+              </div>
+            </div>
+
+            <!-- Button -->
+            <div class="col-12 mb-4">
+              <button class="btn btn-primary" type="submit">Enviar</button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    
+
+  </body>
+
+</html>
