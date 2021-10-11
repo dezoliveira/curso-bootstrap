@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootsrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>TArefa-3</title>
+
+  </head>
+
+  <body>
+
+    <!-- ----------------------------- Formulário ------------------------------ -->
+    <div class="container">
+      <div class="row justify-content-center m-4">
+        <div class="col-6">
+          <h2>Formulário</h2>
+          <form class="row needs-validation">
+
+            <div class="col-12 mb-4">
+              <label for="nome" class="form-label" id="nome"></label>
+              <input type="text" class="form-control" placeholder="Digite o nome do produto">
+            </div>
+
+            <div class="col-12 mb-4">
+              <label for="descricao" class="form-label" id="descricao"></label>
+              <input type="text" class="form-control" placeholder="Digite a descrição do produto">
+            </div>
+
+            <div class="col-12 mb-4">
+              <div class="input-group">
+                <span class="input-group-text" id="basic-addon">R$</span>
+                <input type="text" class="form-control" placeholder="Digite o valor">
+              </div>
+            </div>
+
+            <div class="col-12 mb-4">
+              <input type="checkbox" class="form-check-input" id="checkbox" checked>
+              <label for="disabled" class="form-check-label">Disponível em estoque</label>
+            </div>
+
+            <div class="col-12 mb-4">
+              <label for="category" class="form-label">Selecione a Categoria</label>
+              <select class="form-select" name="category" id="category">
+                <option selected>--</option>
+                <option value="1">Alimentos</option>
+                <option value="2">Bebidas</option>
+                <option value="3">Laticínios</option>
+                <option value="4">Hotifruti</option>
+              </select>
+            </div>
+
+            <div class="d-flex justify-content-end">
+              <button type="submit" class="btn btn-danger">Cancelar</button>
+              <button type="submit" class="btn btn-success">Enviar</button>
+            </div>
+
+            
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+
+</html>
