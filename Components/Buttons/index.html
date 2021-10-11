@@ -14,25 +14,33 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./css/styles.css">
 
-    <title>Badges</title>
+    <title>Botões</title>
 
   </head>
 
   <body>
     
-     <!-- -------------------------------- Badge -------------------------------- -->
-     <div class="col-6 m-4">
-       <h1>Cadeira Gamer Husky X400 <span class="badge bg-danger">New</span></h1>
-     </div>
+    <!-- -------------------------------- Botões -------------------------------- -->
+    <div class="container">
+      <div class="mb-4">
+        <button class="btn btn-primary">Enviar</button>
+        <button class="btn btn-success">Confirmar</button>
+        <button class="btn btn-warning">Editar</button>
+        <button class="btn btn-danger">Excluir</button>
+        <button class="btn btn-info">Info</button>
+      </div>
 
-     <div class="col-6 m-4">
-       <h1>Fone de Ouvido JBL <span class="badge bg-warning">30% OFF</span></h1>
-     </div>
+      <div class="mb-4">
+        <a href="" btn btn-danger>Deletar</a>
+      </div>
 
-     <button type="button" class="btn btn-dark m-4">
-       Mensagens
-       <span class="badge bg-info ">15</span>
-     </button>
+      <div class="col-3 mb-4">
+        <div class="d-grid m-4">
+          <button class="btn btn-primary">Botão de bloco</button>
+        </div>
+      </div>
 
+      <button class="btn btn-warning" disabled>Desabilitado</button>
+    </div>
   </body>
 </html>
