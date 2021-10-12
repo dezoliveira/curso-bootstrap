@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Bootstrap Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" defer></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- Script JS -->
+    <script src="./js/script.js" defer></script>
+
+    <title>Toasty</title>
+
+  </head>
+
+  <body>
+    
+    <!-- -------------------------------- Toasty -------------------------------- -->
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 999">
+      <div
+        id="liveToast"
+        class="toast show"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true"
+      >
+
+        <!-- Header do Toasty -->
+        <div class="toast-header bg-warning">
+          <strong class="me-auto">Sistema</strong>
+          <small>11 minutos atrás</small>
+          <button
+            class="btn-close"
+            type="button"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+          >
+          </button>
+        </div>
+
+        <!-- Body do Toasty -->
+        <div
+          class="toast-body bg-warning">Essa é a mensagem do sistema</div>
+      </div>
+    </div>
+
+  </body>
+</html>
