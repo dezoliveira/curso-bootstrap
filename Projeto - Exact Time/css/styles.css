@@ -100,22 +100,6 @@ body{
   padding: 5px 15px;
 }
 
-@media(min-width: 768px){
-.navbar-brand{
-  text-align: left;
-}
-
-#navbar-items{
-  min-width: 80%;
-  display: flex;
-}
-
-#search-form{
-  width: 50%;
-  margin: 0;
-}
-}
-
 #search-form input{
   background-color: transparent;
   border: none;
@@ -145,6 +129,59 @@ body{
 
 .navbar-toggler{
   font-size: 1.5em;
+}
+
+/**********
+ * BANNERS *
+ **********/
+
+#banners-container{
+  padding: 0;
+}
+
+.carousel-caption{
+  bottom: 5em;
+  padding: 1em;
+  left: 12%;
+  right: 12%;
+}
+
+.carousel-caption h5{
+  font-size: 1.8em;
+}
+
+/*****************
+ * MEDIA QUERIES *
+ *****************/
+
+ @media(min-width: 768px){
+  .navbar-brand{
+    text-align: left;
+  }
+
+  #navbar-items{
+    min-width: 80%;
+    display: flex;
+  }
+
+  #search-form{
+    width: 50%;
+    margin: 0;
+  }
+
+  #slider .carousel-item,
+  #slider img{
+    height: 800px;
+  }
+
+  .carousel-caption{
+    left: 23%;
+    right: 23%;
+  }
+
+  .carousel-caption h5{
+    font-size: 4em;
+  }  
 }
 
 
