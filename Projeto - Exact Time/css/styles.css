@@ -150,11 +150,224 @@ body{
   font-size: 1.8em;
 }
 
+/****************
+ * MINI BANNERS *
+ ****************/
+
+#mini-banners{
+  margin-top: -3em;
+  z-index: 10;
+}
+
+#mini-banners .col-12{
+  z-index: 1;
+  height: 300px;
+  padding: 1.5em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#mini-banners .col-12 h2{
+  text-transform: uppercase;
+  max-width: 50px;
+  font-size: 2.2em;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+#mini-banners .col-12 img{
+  height: 220px;
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+}
+
+#mini-banners .col-12 a{
+  font-weight: bold;
+  color: #FFF;
+  font-size: 0.8em;
+  transition: 0.5s;
+}
+
+#mini-banners .col-12 a:hover{
+  color: #101010;
+}
+
+#mini-banners #mini-banner1 a:hover,
+#mini-banners #mini-banner3 a:hover{
+  color: #C09578;
+}
+
+#mini-banners #mini-banner3 a{
+  color: #101010;
+}
+
+/****************
+ * BEST SELLERS *
+ ****************/
+
+#best-sellers{
+  padding: 4em 0;
+}
+
+#best-sellers .row{
+  margin: 0;
+}
+
+#best-sellers .col-md-3{
+  padding: 0;
+}
+
+.title{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.card{
+  text-align: center;
+  border-radius: none;
+}
+
+.card img{
+  width: 140px;
+  margin: 2em auto;
+}
+
+.card .card-category{
+  font-size: 0.8em;
+}
+
+.card .card-text{
+  margin: 2em 0;
+  font-weight: bold;
+}
+
+.btn{
+  background-color: transparent;
+  border-color: #C09578;
+}
+
+.btn:hover{
+  background-color: #c09578;
+  border-color: #C09578;
+}
+
+/*****************
+ * BOTTOM BANNER *
+ *****************/
+
+#bottom-banner{
+  background-color: #101010;
+  padding: 6em;
+  margin-bottom: 4em;
+  text-align: center;
+}
+
+#bottom-banner .offer-subtitle,
+#bottom-banner h2{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#bottom-banner .btn{
+  margin: 2em;
+  font-weight: bold;
+  padding: 1em;
+}
+
+#bottom-banner img{
+  max-width: 175px;
+}
+
+/****************
+ * NEW PRODUCTS *
+ ****************/
+
+ #new-products{
+   margin-bottom: 5em;
+ }
+
+ #new-products-banner{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #101010;
+ }
+
+ #new-products-banner h3{
+   text-transform: uppercase;
+   font-weight: bold;
+   margin-bottom: .5em;
+   font-size: 2.5em;
+ }
+
+ #new-products .col-md-4{
+   padding: 0;
+ }
+
+ #new-products .card img{
+   height: 150px;
+   width: 90px;
+   margin: 2em auto;
+ }
+
+/********************
+ * GALERIA DE FOTOS *
+ ********************/
+
+#gallery .image-container{
+  background-size: cover;
+  background-position: center;
+  height: 225px;
+  cursor: pointer;
+  transition: 0.5s;
+  border: 3px solid #101010;
+}
+
+#gallery .image-container:hover{
+  border-color: #c09578;
+}
+
+#insta1{
+  background-image: url('../img/insta1.jpg');
+}
+
+#insta2{
+  background-image: url('../img/insta2.jpg');
+}
+
+#insta3{
+  background-image: url('../img/insta3.jpg');
+}
+
+#insta4{
+  background-image: url('../img/insta4.jpg');
+}
+
+#insta5{
+  background-image: url('../img/insta5.jpg');
+}
+
+#insta6{
+  background-image: url('../img/insta6.jpg');
+}
+
+
+
+
+
+
 /*****************
  * MEDIA QUERIES *
  *****************/
 
- @media(min-width: 768px){
+@media(min-width: 768px){
   .navbar-brand{
     text-align: left;
   }
@@ -181,7 +394,19 @@ body{
 
   .carousel-caption h5{
     font-size: 4em;
-  }  
+  }
+
+  #mini-banners .col-12{
+    max-width: 30%;
+  }
+
+  .title {
+    text-align: left;
+  }
+
+  #bottom-banner h2{
+    font-size: 6em;
+  }
 }
 
 
