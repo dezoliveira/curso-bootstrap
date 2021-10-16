@@ -1,0 +1,30 @@
+body{
+  padding-bottom: 1000px;
+}
+
+.box{
+  background-color: tomato;
+  height: 50px;
+}
+
+.box.float-end{
+  background-color: blue;
+  width: 50px;
+}
+
+.box-sticky,
+.box-fixed{
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+}
+
+.box-fixed{
+  background-color: brown;
+}
+
+#teste{
+  width: 800px;
+  height: 800px;
+  background-color: rgb(43, 55, 226);
+}
